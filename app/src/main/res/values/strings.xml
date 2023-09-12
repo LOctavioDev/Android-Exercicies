@@ -3,4 +3,5 @@
     <string name="first_value">Teclea el primer valor:</string>
     <string name="second_value">Teclea el segundo valor:</string>
     <string name="btn_add">Sumar</string>
+    <string name="username_value">Username</string>
 </resources>

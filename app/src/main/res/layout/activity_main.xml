@@ -8,26 +8,16 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="30dp">
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:src="@drawable/logo_ti"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/etValor1"
-        android:hint="@string/first_value"
-        android:inputType="number"
-        />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/etValor2"
-        android:hint="@string/second_value"
+        android:id="@+id/etUsername"
+        android:hint="@string/username_value"
         android:layout_marginTop="10dp"
-        android:inputType="number"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_add"
-        android:layout_marginTop="40dp"
-        android:backgroundTint="@color/background_buttons"
-        android:id="@+id/btnAdd"/>
+        />
 
 </LinearLayout>
