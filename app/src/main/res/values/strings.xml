@@ -2,5 +2,5 @@
     <string name="app_name">Fundamentals DSM4A</string>
     <string name="first_value">Teclea el primer valor:</string>
     <string name="second_value">Teclea el segundo valor:</string>
-    <string name="button_value">Sumar</string>
+    <string name="btn_add">Sumar</string>
 </resources>

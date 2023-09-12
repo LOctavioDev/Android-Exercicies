@@ -11,21 +11,23 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/etValo1"
+        android:id="@+id/etValor1"
         android:hint="@string/first_value"
+        android:inputType="number"
         />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/etValo2"
+        android:id="@+id/etValor2"
         android:hint="@string/second_value"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        android:inputType="number"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/button_value"
-        android:layout_marginTop="20dp"
-        android:background="@color/background_button"
-        android:id="btnAdd"/>
+        android:text="@string/btn_add"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/background_buttons"
+        android:id="@+id/btnAdd"/>
 
 </LinearLayout>
